@@ -338,6 +338,9 @@ footer {
         font-weight: bold;
         background: #d6b170;
         border-radius: 0 !important;
+        &:before {
+            border:2px solid #d6b170;
+        }
     }
 }
 .btn-link-group-order {
