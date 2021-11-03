@@ -88,6 +88,9 @@ header {
     font-size: 18px;
     background: #0a3331;
     padding: 14px 58px;
+    &:before {
+        border:2px solid #0a3331!important;
+    }
 }
 .social {
     padding-left: -500px;
@@ -201,6 +204,9 @@ header {
         margin-top: 15px;
         margin-left: -15px;
         padding: 12px 199%;
+        &:before {
+            border:2px solid #0a3331!important;
+        }
     }
     .count {
         p {
@@ -332,5 +338,12 @@ footer {
         font-weight: bold;
         background: #d6b170;
         border-radius: 0 !important;
+    }
+}
+.btn-link-group-order {
+    .hvr {
+        &:before {
+            border:2px solid #0a3331;
+        }
     }
 }
